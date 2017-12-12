@@ -1,0 +1,410 @@
+@charset "utf-8";
+/*等待条*/
+
+#loading {
+	width: 100%;
+	height: 100%;
+	background: url(../img/wsload.gif) no-repeat center center #FFF;
+	background-size: 10%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+/*==============================================================浮层内容*/
+
+#tip {
+	background: rgba(0, 0, 0, 0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 9999;
+}
+
+#tip .pack {
+	width: 80%;
+	/*min-height: 100px;*/
+	margin: 0 auto;
+	background: #FFF;
+	margin-top: 30%;
+	position: relative;
+	overflow: hidden;
+}
+#tip .pack p {
+	font-size: 18px;
+	text-align: center;
+	color: #666666;
+	line-height: 36px;
+	margin-top: 20px;
+
+}
+#tip .pack h1 {
+	font-size: 24px;
+	text-align: center;
+	color: #666666;
+	line-height: 36px;
+	margin-top: 20px;
+
+}
+#tip .pack a {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	font-size: 16px;
+	color: #c8161d;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	border-top: 1px solid #d6d6d6;
+}
+
+/*弹出框增加*/
+#tip .pack_yl{
+	min-height:200px;
+	margin-top: 45%;
+	border-radius: 10px;
+}
+
+#tip .pack_yl p {
+    font-size: 26px;
+    margin-top:30px;
+    margin-bottom:65px;
+    padding: 0 5%;
+}
+
+
+#tip .pack_yl a {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    font-size: 26px;
+}
+#tip .pack_yl a img{
+	display: block;
+	width: 53px;
+	line-height: 53px;
+	margin: 0 auto;
+}
+
+/*正文*/
+
+.chuyou {
+	background: url(../img/chuyou0428/cy_iocn05.png) no-repeat left top;
+	background-size: cover;
+	height: 1138px;
+}
+
+.chuyou .cy_header{
+	background: url(../img/chuyou0428/cy_iocn06.png) no-repeat left top;
+	background-size: cover;
+	height: 1138px;
+	position: relative;
+}
+.chuyou .cy_header .cy_middle{
+	width: 430px;
+	margin: 0 auto;
+	position: absolute;
+	top: 738px;
+	left: 50%;
+	margin-left: -215px;
+	
+}
+
+.chuyou .cy_header .cy_middle input{
+	display: block;
+	width: 416px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	border:1px solid #c1c1c1;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.chuyou .cy_header .cy_middle a{
+	display: block;
+	width: 416px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	color: #526370;
+	text-decoration: underline;
+	
+}
+
+.chuyou .cy_header .cy_middle .cp_btn{
+	background: url(../img/chuyou0428/cy_iocn07.png) no-repeat center center;
+	margin: 10px auto;
+	color: #fff;
+	text-decoration: none;
+}
+.chuyou .cy_header .cy_logo{
+	width: 215px;
+	position: absolute;
+	top:1008px;
+	left: 50%;
+	margin-left: -107px;
+}
+
+/*=================0506母亲节*/
+
+.momDay{
+	background: url(../img/160506/m_icon01.png) no-repeat left top;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+
+.momDay .mom_middle{
+	width: 464px;
+	margin: 0 auto;
+	margin-top: 67%;
+	position: relative;
+}/*123*/
+.momDay .mom_middle .mom_4g{
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+}
+.momDay  .mom_middle input{
+	display: block;
+	width: 464px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	border:1px solid #c1c1c1;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.momDay  .mom_middle a{
+	display: block;
+	width: 464px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: underline;
+	
+}
+
+.momDay  .mom_middle .mom_btn{
+	background: url(../img/160506/m_icon03.png) no-repeat center center;
+	margin: 10px auto;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.momDay .mom_logo{
+	width: 508px;
+	margin: 0 auto;
+	padding-top: 80px;
+	margin-bottom: 70px;
+	/*padding-left: 40px;*/
+}/*123*/
+.momDay .mom_txt{
+	color: #fff;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.momDay .mom_txt h2{
+	font-size: 56px;
+	background-color: #c8161d;
+	width: 464px;
+	height: 69px;
+	line-height: 64px;
+	border-radius: 14px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.momDay .mom_txt h3{
+	font-weight: normal;
+}
+/*============================小满*/
+
+
+.xiaoman{
+	background: url(../img/160519/xm_icon05.png) no-repeat left top;
+	background-size: cover;
+	height: 100vh;
+}
+.xiaoman .xm_logo {
+	padding-top: 100px;
+}
+
+.xiaoman .xm_logo img{
+	display: block;
+	margin: 0 auto;
+	
+}
+.xiaoman .xm_txt img{
+	margin: 0 auto;
+	display: block;
+}
+.xiaoman .xm_middle{
+	width: 474px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.xiaoman .xm_middle .mom_4g{
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+}
+.xiaoman  .xm_middle input{
+	display: block;
+	width: 474px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	border:1px solid #c1c1c1;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.xiaoman  .xm_middle a{
+	display: block;
+	width: 474px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: underline;
+	
+}
+
+.xiaoman  .xm_middle .mom_btn{
+	background: url(../img/160519/xm_icon04.png) no-repeat center center;
+	margin: 10px auto;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.xm_logoBo{
+	display: block;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	width:223px;
+	margin-left: -116px;
+	
+}
+
+/*=====================同城旅行*/
+
+
+.tongcheng{
+	background: url(../img/160524/tc_icon01.png) no-repeat left top;
+	background-size: cover;
+	height: 100vh;
+}
+.tongcheng .tc_logo {
+	padding-top: 65px;
+	margin-bottom: 30px;
+}
+
+.tongcheng .tc_logo img{
+	display: block;
+	margin: 0 auto;
+	
+}
+.tongcheng .tc_txt img{
+	margin: 0 auto;
+	display: block;
+}
+.tongcheng .tc_middle{
+	width: 474px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.tongcheng .tc_middle .mom_4g{
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+}
+.tongcheng  .tc_middle input{
+	display: block;
+	width: 474px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	border:1px solid #c1c1c1;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.tongcheng .tc_middle a{
+	display: block;
+	width: 474px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	color: #000;
+	text-decoration: underline;
+	
+}
+
+.tongcheng .tc_middle .mom_btn{
+	background-color: #c9151e;
+	margin: 10px auto;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.tongcheng .tc_text{
+	margin-top: 20px;
+	color: #969696;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

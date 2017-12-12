@@ -1,0 +1,193 @@
+@charset "utf-8";
+/*等待条*/
+
+#loading {
+	width: 100%;
+	height: 100%;
+	background: url(../img/wsload.gif) no-repeat center center #FFF;
+	background-size: 10%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+/*==============================================================浮层内容*/
+
+#tip {
+	background: rgba(0, 0, 0, 0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 9999;
+}
+
+#tip .pack {
+	width: 80%;
+	/*min-height: 100px;*/
+	margin: 0 auto;
+	background: #FFF;
+	margin-top: 30%;
+	position: relative;
+	overflow: hidden;
+}
+#tip .pack p {
+	font-size: 18px;
+	text-align: center;
+	color: #666666;
+	line-height: 36px;
+	margin-top: 20px;
+
+}
+#tip .pack h1 {
+	font-size: 24px;
+	text-align: center;
+	color: #666666;
+	line-height: 36px;
+	margin-top: 20px;
+
+}
+#tip .pack a {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	font-size: 16px;
+	color: #c8161d;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	border-top: 1px solid #d6d6d6;
+}
+
+/*弹出框增加*/
+#tip .pack_yl{
+	min-height:200px;
+	margin-top: 45%;
+	border-radius: 10px;
+}
+
+#tip .pack_yl p {
+    font-size: 26px;
+    margin-top:30px;
+    margin-bottom:65px;
+    padding: 0 5%;
+}
+
+
+#tip .pack_yl a {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    font-size: 26px;
+}
+#tip .pack_yl a img{
+	display: block;
+	width: 53px;
+	line-height: 53px;
+	margin: 0 auto;
+}
+/*正文*/
+
+.changpao {
+	background: url(../img/cp_bg.png) no-repeat left top;
+	background-size: cover;
+	height: 100vh;
+}
+
+.changpao .cp_top{
+	width: 90%;
+	margin: 40px auto;
+}
+.changpao .cp_tit{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.changpao .cp_mess{
+	width: 90%;
+	margin: 20px auto;
+}
+
+.changpao .cp_mess input{
+	display: block;
+	width: 80%;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	border:1px solid #c1c1c1;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.changpao .cp_mess a{
+	display: block;
+	width: 80%;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	
+}
+
+.changpao .cp_mess .cp_btn{
+	background-color: #000;
+	margin: 20px auto;
+	color: #fff;
+}
+
+.changpao .cp_mess .cp_load{
+	color: #000;
+	font-size: 20px;
+	
+}
+
+.changpao .cp_txt{
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px 40px;
+	background-color:rgba(255,255,255,0.5);
+	font-size: 18px;
+	color: #030000;
+}
+/*长跑发券*/
+.fq_cp{
+	background: url(../img/fq_cpbg.png) no-repeat left top;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+.fq_cp .cp_top{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.fq_cp .cp_top img{
+	width: 100%;
+	display: block;
+}
+
+.fq_cp .cp_mess{
+	margin-top: 180px;
+}/*123*/
+
+.fq_logo{
+	width: 100%;
+	position: absolute;
+	bottom: 4%;
+}
+.fq_logo img{
+	width: 191px;
+	height: 44px;
+	display: block;
+	margin: 0 auto;
+	
+}
